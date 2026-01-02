@@ -1,0 +1,4 @@
+source;share/tsdf_saver/local_setup.bash
+source;share/tsdf_saver/local_setup.dsv
+source;share/tsdf_saver/local_setup.sh
+source;share/tsdf_saver/local_setup.zsh

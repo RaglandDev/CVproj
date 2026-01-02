@@ -1,0 +1,25 @@
+[0.979s] Invoking command in '/home/alex/ros2_ws/src/sgbm_depth': PYTHONPATH=/home/alex/ros2_ws/build/sgbm_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sgbm_depth build --build-base /home/alex/ros2_ws/build/sgbm_depth/build install --record /home/alex/ros2_ws/build/sgbm_depth/install.log --single-version-externally-managed install_data
+[1.245s] running egg_info
+[1.263s] writing ../../build/sgbm_depth/sgbm_depth.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/sgbm_depth/sgbm_depth.egg-info/dependency_links.txt
+[1.263s] writing entry points to ../../build/sgbm_depth/sgbm_depth.egg-info/entry_points.txt
+[1.263s] writing requirements to ../../build/sgbm_depth/sgbm_depth.egg-info/requires.txt
+[1.264s] writing top-level names to ../../build/sgbm_depth/sgbm_depth.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/sgbm_depth/sgbm_depth.egg-info/SOURCES.txt'
+[1.303s] adding license file 'LICENSE'
+[1.303s] writing manifest file '../../build/sgbm_depth/sgbm_depth.egg-info/SOURCES.txt'
+[1.303s] running build
+[1.304s] running build_py
+[1.304s] copying sgbm_depth/depth_mapper.py -> /home/alex/ros2_ws/build/sgbm_depth/build/lib/sgbm_depth
+[1.304s] running install
+[1.310s] running install_lib
+[1.329s] copying /home/alex/ros2_ws/build/sgbm_depth/build/lib/sgbm_depth/depth_mapper.py -> /home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth
+[1.330s] byte-compiling /home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth/depth_mapper.py to depth_mapper.cpython-312.pyc
+[1.331s] running install_data
+[1.332s] running install_egg_info
+[1.352s] removing '/home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth-0.0.0-py3.12.egg-info' (and everything under it)
+[1.352s] Copying ../../build/sgbm_depth/sgbm_depth.egg-info to /home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth-0.0.0-py3.12.egg-info
+[1.353s] running install_scripts
+[1.479s] Installing depth_mapper script to /home/alex/ros2_ws/install/sgbm_depth/lib/sgbm_depth
+[1.479s] writing list of installed files to '/home/alex/ros2_ws/build/sgbm_depth/install.log'
+[1.515s] Invoked command in '/home/alex/ros2_ws/src/sgbm_depth' returned '0': PYTHONPATH=/home/alex/ros2_ws/build/sgbm_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sgbm_depth build --build-base /home/alex/ros2_ws/build/sgbm_depth/build install --record /home/alex/ros2_ws/build/sgbm_depth/install.log --single-version-externally-managed install_data

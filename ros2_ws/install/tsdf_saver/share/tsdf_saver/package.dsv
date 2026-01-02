@@ -1,0 +1,11 @@
+source;share/tsdf_saver/hook/cmake_prefix_path.ps1
+source;share/tsdf_saver/hook/cmake_prefix_path.dsv
+source;share/tsdf_saver/hook/cmake_prefix_path.sh
+source;share/tsdf_saver/hook/ld_library_path_lib.ps1
+source;share/tsdf_saver/hook/ld_library_path_lib.dsv
+source;share/tsdf_saver/hook/ld_library_path_lib.sh
+source;share/tsdf_saver/local_setup.bash
+source;share/tsdf_saver/local_setup.dsv
+source;share/tsdf_saver/local_setup.ps1
+source;share/tsdf_saver/local_setup.sh
+source;share/tsdf_saver/local_setup.zsh

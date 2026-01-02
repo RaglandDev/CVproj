@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/alex/ros2_ws/build/tsdf_saver
+[100%] Built target exact_time_saver
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/lib/libexact_time_saver.so
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/include//tsdf_saver/exact_time_saver.hpp
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/launch/saver.launch.py
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/package_run_dependencies/tsdf_saver
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/parent_prefix_path/tsdf_saver
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.sh
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.dsv
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.bash
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.sh
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.zsh
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.dsv
+-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.dsv
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/packages/tsdf_saver
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/rclcpp_components/tsdf_saver
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig.cmake
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig-version.cmake
+-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.xml

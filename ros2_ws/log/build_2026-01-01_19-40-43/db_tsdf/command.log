@@ -1,0 +1,4 @@
+Invoking command in '/home/alex/ros2_ws/build/db_tsdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/db_tsdf -- -j8 -l8
+Invoked command in '/home/alex/ros2_ws/build/db_tsdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/db_tsdf -- -j8 -l8
+Invoking command in '/home/alex/ros2_ws/build/db_tsdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/db_tsdf
+Invoked command in '/home/alex/ros2_ws/build/db_tsdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/db_tsdf

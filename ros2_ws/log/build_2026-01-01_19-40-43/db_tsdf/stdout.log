@@ -1,0 +1,26 @@
+[100%] Built target db_tsdf_node
+-- Install configuration: ""
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch/mapper_launch.py
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/college.rviz
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/mai.rviz
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/mai.yaml
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/college.yaml
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/lib/db_tsdf/db_tsdf_node
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/package_run_dependencies/db_tsdf
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/parent_prefix_path/db_tsdf
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.sh
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.sh
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.dsv
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.bash
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.sh
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.zsh
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.dsv
+-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.dsv
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/packages/db_tsdf
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig.cmake
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig-version.cmake
+-- Up-to-date: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.xml

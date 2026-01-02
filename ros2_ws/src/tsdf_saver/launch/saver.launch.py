@@ -59,6 +59,13 @@ def generate_launch_description():
     """
     YOUR ROS NODE OR COMPOSABLE NODE GOES HERE
     """
+    depth_component = Node(
+            package="sgbm_depth",
+            executable="depth_mapper",
+            name="depth_mapper",
+            output="screen",
+            parameters=[{"use_sim_time": True}]
+            )
 
     # ==============================================================
     #  PointCloud Node (XYZ)
@@ -73,8 +80,8 @@ def generate_launch_description():
             {"queue_size": 20}
         ],
         remappings=[
-            ("/zed/zedxm/depth/camera_info", "/zed/zedxm/depth/depth_registered/camera_info"),
-            ("image_rect", "/zed/zedxm/depth/depth_registered"),
+            ("camera_info", "/depth/camera_info"),
+            ("image_rect", "/depth"),
             ("points", "/stereo/points")
         ],
         extra_arguments=[{'use_intra_process_comms': True}]
@@ -193,5 +200,6 @@ def generate_launch_description():
         bag_proc,
         container,
         db_tsdf_node,
-        delayed_shutdown
+        delayed_shutdown,
+        depth_component
     ])

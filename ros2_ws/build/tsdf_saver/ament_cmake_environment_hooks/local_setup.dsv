@@ -1,0 +1,2 @@
+source;share/tsdf_saver/environment/ament_prefix_path.sh
+source;share/tsdf_saver/environment/path.sh

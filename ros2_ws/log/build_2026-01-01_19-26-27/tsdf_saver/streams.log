@@ -1,0 +1,44 @@
+[0.234s] Invoking command in '/home/alex/ros2_ws/build/tsdf_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alex/ros2_ws/src/tsdf_saver -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/tsdf_saver
+[0.263s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.487s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.505s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.540s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.668s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.774s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.811s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.832s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.020s] -- Configuring done (0.8s)
+[1.038s] -- Generating done (0.0s)
+[1.042s] -- Build files have been written to: /home/alex/ros2_ws/build/tsdf_saver
+[1.049s] Invoked command in '/home/alex/ros2_ws/build/tsdf_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alex/ros2_ws/src/tsdf_saver -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/tsdf_saver
+[1.050s] Invoking command in '/home/alex/ros2_ws/build/tsdf_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/tsdf_saver -- -j8 -l8
+[1.109s] [100%] Built target exact_time_saver
+[1.120s] Invoked command in '/home/alex/ros2_ws/build/tsdf_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/tsdf_saver -- -j8 -l8
+[1.130s] Invoking command in '/home/alex/ros2_ws/build/tsdf_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/tsdf_saver
+[1.138s] -- Install configuration: "Release"
+[1.138s] -- Execute custom install script
+[1.139s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/lib/libexact_time_saver.so
+[1.139s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/include//tsdf_saver/exact_time_saver.hpp
+[1.139s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/launch/saver.launch.py
+[1.139s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/package_run_dependencies/tsdf_saver
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/parent_prefix_path/tsdf_saver
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.sh
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.dsv
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.sh
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.dsv
+[1.140s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.bash
+[1.141s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.sh
+[1.141s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.zsh
+[1.141s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.dsv
+[1.141s] -- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.dsv
+[1.150s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/packages/tsdf_saver
+[1.150s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/rclcpp_components/tsdf_saver
+[1.150s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig.cmake
+[1.150s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig-version.cmake
+[1.151s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.xml
+[1.152s] Invoked command in '/home/alex/ros2_ws/build/tsdf_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/tsdf_saver

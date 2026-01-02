@@ -1,0 +1,632 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (db_tsdf) JobQueued: {'identifier': 'db_tsdf', 'dependencies': OrderedDict()}
+[0.001073] (sgbm_depth) JobQueued: {'identifier': 'sgbm_depth', 'dependencies': OrderedDict()}
+[0.001126] (tsdf_saver) JobQueued: {'identifier': 'tsdf_saver', 'dependencies': OrderedDict()}
+[0.001156] (db_tsdf) JobStarted: {'identifier': 'db_tsdf'}
+[0.008633] (sgbm_depth) JobStarted: {'identifier': 'sgbm_depth'}
+[0.012608] (tsdf_saver) JobStarted: {'identifier': 'tsdf_saver'}
+[0.016906] (db_tsdf) JobProgress: {'identifier': 'db_tsdf', 'progress': 'cmake'}
+[0.017237] (db_tsdf) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/DB-TSDF', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/db_tsdf'], 'cwd': '/home/alex/ros2_ws/build/db_tsdf', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/db_tsdf', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099841] (-) TimerEvent: {}
+[0.200113] (-) TimerEvent: {}
+[0.261276] (db_tsdf) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.261922] (db_tsdf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.262069] (db_tsdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.262384] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'cmake'}
+[0.262999] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'build'}
+[0.263910] (tsdf_saver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/tsdf_saver', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/tsdf_saver', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/tsdf_saver', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.285915] (db_tsdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298849] (db_tsdf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.299367] (db_tsdf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300042] (db_tsdf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300177] (-) TimerEvent: {}
+[0.311536] (db_tsdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.328364] (tsdf_saver) StdoutLine: {'line': b'[100%] Built target exact_time_saver\n'}
+[0.340905] (tsdf_saver) CommandEnded: {'returncode': 0}
+[0.341371] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'install'}
+[0.350623] (tsdf_saver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/tsdf_saver'], 'cwd': '/home/alex/ros2_ws/build/tsdf_saver', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/tsdf_saver', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.358979] (tsdf_saver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.359441] (tsdf_saver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.359758] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/lib/libexact_time_saver.so\n'}
+[0.360114] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/include//tsdf_saver/exact_time_saver.hpp\n'}
+[0.360435] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/launch/saver.launch.py\n'}
+[0.360654] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/package_run_dependencies/tsdf_saver\n'}
+[0.360848] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/parent_prefix_path/tsdf_saver\n'}
+[0.361040] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.sh\n'}
+[0.361243] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.dsv\n'}
+[0.361421] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.sh\n'}
+[0.361588] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.dsv\n'}
+[0.361748] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.bash\n'}
+[0.361909] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.sh\n'}
+[0.362081] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.zsh\n'}
+[0.362258] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.dsv\n'}
+[0.362377] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.dsv\n'}
+[0.371643] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/packages/tsdf_saver\n'}
+[0.371966] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/rclcpp_components/tsdf_saver\n'}
+[0.372304] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig.cmake\n'}
+[0.372470] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig-version.cmake\n'}
+[0.372750] (tsdf_saver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.xml\n'}
+[0.374761] (tsdf_saver) CommandEnded: {'returncode': 0}
+[0.394212] (tsdf_saver) JobEnded: {'identifier': 'tsdf_saver', 'rc': 0}
+[0.400277] (-) TimerEvent: {}
+[0.416088] (db_tsdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.427235] (db_tsdf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.427580] (db_tsdf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.428157] (db_tsdf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.431104] (db_tsdf) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500389] (-) TimerEvent: {}
+[0.573862] (db_tsdf) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600513] (-) TimerEvent: {}
+[0.688545] (db_tsdf) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.700600] (-) TimerEvent: {}
+[0.729856] (db_tsdf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.743983] (db_tsdf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.760665] (db_tsdf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.780142] (db_tsdf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800699] (-) TimerEvent: {}
+[0.873532] (db_tsdf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.877840] (db_tsdf) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.879951] (sgbm_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sgbm_depth', 'build', '--build-base', '/home/alex/ros2_ws/build/sgbm_depth/build', 'install', '--record', '/home/alex/ros2_ws/build/sgbm_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alex/ros2_ws/src/sgbm_depth', 'env': {'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/sgbm_depth', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/alex/ros2_ws/build/sgbm_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.900830] (-) TimerEvent: {}
+[0.914432] (db_tsdf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.999048] (db_tsdf) StdoutLine: {'line': b'-- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[1.000944] (-) TimerEvent: {}
+[1.025845] (db_tsdf) StdoutLine: {'line': b'-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.050006] (db_tsdf) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.101043] (-) TimerEvent: {}
+[1.157915] (sgbm_depth) StdoutLine: {'line': b'running egg_info\n'}
+[1.177092] (sgbm_depth) StdoutLine: {'line': b'writing ../../build/sgbm_depth/sgbm_depth.egg-info/PKG-INFO\n'}
+[1.177391] (sgbm_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/sgbm_depth/sgbm_depth.egg-info/dependency_links.txt\n'}
+[1.177620] (sgbm_depth) StdoutLine: {'line': b'writing entry points to ../../build/sgbm_depth/sgbm_depth.egg-info/entry_points.txt\n'}
+[1.177830] (sgbm_depth) StdoutLine: {'line': b'writing requirements to ../../build/sgbm_depth/sgbm_depth.egg-info/requires.txt\n'}
+[1.177934] (sgbm_depth) StdoutLine: {'line': b'writing top-level names to ../../build/sgbm_depth/sgbm_depth.egg-info/top_level.txt\n'}
+[1.201162] (-) TimerEvent: {}
+[1.201542] (db_tsdf) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.219635] (sgbm_depth) StdoutLine: {'line': b"reading manifest file '../../build/sgbm_depth/sgbm_depth.egg-info/SOURCES.txt'\n"}
+[1.219930] (sgbm_depth) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.220525] (sgbm_depth) StdoutLine: {'line': b"writing manifest file '../../build/sgbm_depth/sgbm_depth.egg-info/SOURCES.txt'\n"}
+[1.220639] (db_tsdf) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.220812] (sgbm_depth) StdoutLine: {'line': b'running build\n'}
+[1.220909] (sgbm_depth) StdoutLine: {'line': b'running build_py\n'}
+[1.221005] (sgbm_depth) StdoutLine: {'line': b'running install\n'}
+[1.222301] (db_tsdf) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.222453] (db_tsdf) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.225876] (db_tsdf) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.227420] (sgbm_depth) StdoutLine: {'line': b'running install_lib\n'}
+[1.248083] (sgbm_depth) StdoutLine: {'line': b'running install_data\n'}
+[1.248331] (sgbm_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.254665] (db_tsdf) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.269395] (sgbm_depth) StdoutLine: {'line': b"removing '/home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.269726] (sgbm_depth) StdoutLine: {'line': b'Copying ../../build/sgbm_depth/sgbm_depth.egg-info to /home/alex/ros2_ws/install/sgbm_depth/lib/python3.12/site-packages/sgbm_depth-0.0.0-py3.12.egg-info\n'}
+[1.270608] (sgbm_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[1.289363] (db_tsdf) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[1.301296] (-) TimerEvent: {}
+[1.374534] (db_tsdf) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.374769] (db_tsdf) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.374888] (db_tsdf) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.375001] (db_tsdf) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.375078] (db_tsdf) StderrLine: {'line': b'\n'}
+[1.375185] (db_tsdf) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.375288] (db_tsdf) StderrLine: {'line': b'\n'}
+[1.375401] (db_tsdf) StderrLine: {'line': b'    /usr\n'}
+[1.375496] (db_tsdf) StderrLine: {'line': b'\n'}
+[1.375571] (db_tsdf) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.375680] (db_tsdf) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.375784] (db_tsdf) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.375847] (db_tsdf) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.375949] (db_tsdf) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.376057] (db_tsdf) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.376223] (db_tsdf) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.376338] (db_tsdf) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.376450] (db_tsdf) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.376517] (db_tsdf) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)\n'}
+[1.376618] (db_tsdf) StderrLine: {'line': b'  CMakeLists.txt:24 (find_package)\n'}
+[1.376726] (db_tsdf) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.376840] (db_tsdf) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377176] (db_tsdf) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.401399] (-) TimerEvent: {}
+[1.406919] (sgbm_depth) StdoutLine: {'line': b'Installing depth_mapper script to /home/alex/ros2_ws/install/sgbm_depth/lib/sgbm-depth\n'}
+[1.407289] (sgbm_depth) StdoutLine: {'line': b"writing list of installed files to '/home/alex/ros2_ws/build/sgbm_depth/install.log'\n"}
+[1.447299] (sgbm_depth) CommandEnded: {'returncode': 0}
+[1.454920] (sgbm_depth) JobEnded: {'identifier': 'sgbm_depth', 'rc': 0}
+[1.501519] (-) TimerEvent: {}
+[1.601848] (-) TimerEvent: {}
+[1.702126] (-) TimerEvent: {}
+[1.710752] (db_tsdf) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.711082] (db_tsdf) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.802178] (-) TimerEvent: {}
+[1.902467] (-) TimerEvent: {}
+[2.002759] (-) TimerEvent: {}
+[2.103110] (-) TimerEvent: {}
+[2.203404] (-) TimerEvent: {}
+[2.303713] (-) TimerEvent: {}
+[2.404017] (-) TimerEvent: {}
+[2.504311] (-) TimerEvent: {}
+[2.604655] (-) TimerEvent: {}
+[2.704966] (-) TimerEvent: {}
+[2.805278] (-) TimerEvent: {}
+[2.905558] (-) TimerEvent: {}
+[3.005857] (-) TimerEvent: {}
+[3.008852] (db_tsdf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.023197] (db_tsdf) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[3.054973] (db_tsdf) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.056669] (db_tsdf) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.106002] (-) TimerEvent: {}
+[3.109142] (db_tsdf) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.112738] (db_tsdf) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[3.124273] (db_tsdf) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[3.138109] (db_tsdf) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[3.206155] (-) TimerEvent: {}
+[3.306490] (-) TimerEvent: {}
+[3.406766] (-) TimerEvent: {}
+[3.503706] (db_tsdf) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.506877] (-) TimerEvent: {}
+[3.511020] (db_tsdf) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.606995] (-) TimerEvent: {}
+[3.707280] (-) TimerEvent: {}
+[3.807564] (-) TimerEvent: {}
+[3.870471] (db_tsdf) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.907705] (-) TimerEvent: {}
+[4.008069] (-) TimerEvent: {}
+[4.108372] (-) TimerEvent: {}
+[4.208663] (-) TimerEvent: {}
+[4.240984] (db_tsdf) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.308775] (-) TimerEvent: {}
+[4.409108] (-) TimerEvent: {}
+[4.509367] (-) TimerEvent: {}
+[4.600269] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.601339] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.602362] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.603418] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.604466] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.605528] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.606038] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[4.606552] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[4.607577] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.608729] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.609470] (-) TimerEvent: {}
+[4.609964] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.611285] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.612776] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.614301] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.615504] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.616627] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.617775] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.618947] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.620144] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.621211] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.622200] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[4.622693] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[4.623351] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[4.624493] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.625675] (db_tsdf) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.677226] (db_tsdf) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread chrono \n'}
+[4.709615] (-) TimerEvent: {}
+[4.783449] (db_tsdf) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.809727] (-) TimerEvent: {}
+[4.910036] (-) TimerEvent: {}
+[5.010307] (-) TimerEvent: {}
+[5.110582] (-) TimerEvent: {}
+[5.198690] (db_tsdf) StdoutLine: {'line': b'-- Found AMD headers in: /usr/include/suitesparse\n'}
+[5.199739] (db_tsdf) StdoutLine: {'line': b'-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so\n'}
+[5.200293] (db_tsdf) StdoutLine: {'line': b'-- Found CAMD headers in: /usr/include/suitesparse\n'}
+[5.201074] (db_tsdf) StdoutLine: {'line': b'-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so\n'}
+[5.201564] (db_tsdf) StdoutLine: {'line': b'-- Found CCOLAMD headers in: /usr/include/suitesparse\n'}
+[5.202354] (db_tsdf) StdoutLine: {'line': b'-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so\n'}
+[5.202838] (db_tsdf) StdoutLine: {'line': b'-- Found CHOLMOD headers in: /usr/include/suitesparse\n'}
+[5.203671] (db_tsdf) StdoutLine: {'line': b'-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so\n'}
+[5.204117] (db_tsdf) StdoutLine: {'line': b'-- Found COLAMD headers in: /usr/include/suitesparse\n'}
+[5.204910] (db_tsdf) StdoutLine: {'line': b'-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so\n'}
+[5.205416] (db_tsdf) StdoutLine: {'line': b'-- Found SPQR headers in: /usr/include/suitesparse\n'}
+[5.206123] (db_tsdf) StdoutLine: {'line': b'-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so\n'}
+[5.206639] (db_tsdf) StdoutLine: {'line': b'-- Found Config headers in: /usr/include/suitesparse\n'}
+[5.207352] (db_tsdf) StdoutLine: {'line': b'-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so\n'}
+[5.207952] (db_tsdf) StdoutLine: {'line': b'-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.\n'}
+[5.208083] (db_tsdf) StdoutLine: {'line': b'-- Looking for shm_open in rt\n'}
+[5.210691] (-) TimerEvent: {}
+[5.297304] (db_tsdf) StdoutLine: {'line': b'-- Looking for shm_open in rt - found\n'}
+[5.297500] (db_tsdf) StdoutLine: {'line': b'-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).\n'}
+[5.303947] (db_tsdf) StdoutLine: {'line': b'-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) \n'}
+[5.305302] (db_tsdf) StdoutLine: {'line': b'-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config \n'}
+[5.306417] (db_tsdf) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake\n'}
+[5.310804] (-) TimerEvent: {}
+[5.319940] (db_tsdf) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[5.320684] (db_tsdf) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[5.321490] (db_tsdf) StdoutLine: {'line': b'-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]\n'}
+[5.410924] (-) TimerEvent: {}
+[5.418884] (db_tsdf) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[5.419732] (db_tsdf) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[5.424002] (db_tsdf) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[5.479953] (db_tsdf) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[5.480964] (db_tsdf) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[5.482793] (db_tsdf) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") \n'}
+[5.483914] (db_tsdf) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") \n'}
+[5.488489] (db_tsdf) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[5.511055] (-) TimerEvent: {}
+[5.602759] (db_tsdf) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[5.611110] (-) TimerEvent: {}
+[5.711381] (-) TimerEvent: {}
+[5.720110] (db_tsdf) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.728046] (db_tsdf) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/db_tsdf\n'}
+[5.752582] (db_tsdf) CommandEnded: {'returncode': 0}
+[5.753525] (db_tsdf) JobProgress: {'identifier': 'db_tsdf', 'progress': 'build'}
+[5.754428] (db_tsdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/db_tsdf', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/db_tsdf', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/db_tsdf', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.811520] (-) TimerEvent: {}
+[5.819220] (db_tsdf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/db_tsdf_node.dir/src/db_tsdf_node.cpp.o\x1b[0m\n'}
+[5.911873] (-) TimerEvent: {}
+[6.012187] (-) TimerEvent: {}
+[6.112554] (-) TimerEvent: {}
+[6.213056] (-) TimerEvent: {}
+[6.313515] (-) TimerEvent: {}
+[6.413794] (-) TimerEvent: {}
+[6.514076] (-) TimerEvent: {}
+[6.614343] (-) TimerEvent: {}
+[6.714678] (-) TimerEvent: {}
+[6.815005] (-) TimerEvent: {}
+[6.915352] (-) TimerEvent: {}
+[7.015701] (-) TimerEvent: {}
+[7.116036] (-) TimerEvent: {}
+[7.216360] (-) TimerEvent: {}
+[7.316649] (-) TimerEvent: {}
+[7.416984] (-) TimerEvent: {}
+[7.517461] (-) TimerEvent: {}
+[7.617792] (-) TimerEvent: {}
+[7.718194] (-) TimerEvent: {}
+[7.818528] (-) TimerEvent: {}
+[7.918898] (-) TimerEvent: {}
+[8.019279] (-) TimerEvent: {}
+[8.119586] (-) TimerEvent: {}
+[8.219889] (-) TimerEvent: {}
+[8.320205] (-) TimerEvent: {}
+[8.420566] (-) TimerEvent: {}
+[8.520833] (-) TimerEvent: {}
+[8.621162] (-) TimerEvent: {}
+[8.721462] (-) TimerEvent: {}
+[8.821722] (-) TimerEvent: {}
+[8.922031] (-) TimerEvent: {}
+[9.022400] (-) TimerEvent: {}
+[9.122855] (-) TimerEvent: {}
+[9.223121] (-) TimerEvent: {}
+[9.323402] (-) TimerEvent: {}
+[9.423715] (-) TimerEvent: {}
+[9.524077] (-) TimerEvent: {}
+[9.624541] (-) TimerEvent: {}
+[9.724862] (-) TimerEvent: {}
+[9.825198] (-) TimerEvent: {}
+[9.925520] (-) TimerEvent: {}
+[10.025873] (-) TimerEvent: {}
+[10.126171] (-) TimerEvent: {}
+[10.226532] (-) TimerEvent: {}
+[10.326852] (-) TimerEvent: {}
+[10.427171] (-) TimerEvent: {}
+[10.527542] (-) TimerEvent: {}
+[10.627853] (-) TimerEvent: {}
+[10.728157] (-) TimerEvent: {}
+[10.828453] (-) TimerEvent: {}
+[10.928768] (-) TimerEvent: {}
+[11.029060] (-) TimerEvent: {}
+[11.129438] (-) TimerEvent: {}
+[11.229747] (-) TimerEvent: {}
+[11.330091] (-) TimerEvent: {}
+[11.430392] (-) TimerEvent: {}
+[11.530693] (-) TimerEvent: {}
+[11.631043] (-) TimerEvent: {}
+[11.731379] (-) TimerEvent: {}
+[11.831703] (-) TimerEvent: {}
+[11.932032] (-) TimerEvent: {}
+[12.032428] (-) TimerEvent: {}
+[12.132738] (-) TimerEvent: {}
+[12.233054] (-) TimerEvent: {}
+[12.333402] (-) TimerEvent: {}
+[12.433762] (-) TimerEvent: {}
+[12.534085] (-) TimerEvent: {}
+[12.634384] (-) TimerEvent: {}
+[12.734712] (-) TimerEvent: {}
+[12.835048] (-) TimerEvent: {}
+[12.935403] (-) TimerEvent: {}
+[13.035772] (-) TimerEvent: {}
+[13.136129] (-) TimerEvent: {}
+[13.236553] (-) TimerEvent: {}
+[13.336969] (-) TimerEvent: {}
+[13.437301] (-) TimerEvent: {}
+[13.537619] (-) TimerEvent: {}
+[13.637979] (-) TimerEvent: {}
+[13.738364] (-) TimerEvent: {}
+[13.838673] (-) TimerEvent: {}
+[13.938989] (-) TimerEvent: {}
+[14.039312] (-) TimerEvent: {}
+[14.139607] (-) TimerEvent: {}
+[14.239933] (-) TimerEvent: {}
+[14.340292] (-) TimerEvent: {}
+[14.440617] (-) TimerEvent: {}
+[14.540937] (-) TimerEvent: {}
+[14.641292] (-) TimerEvent: {}
+[14.741630] (-) TimerEvent: {}
+[14.841949] (-) TimerEvent: {}
+[14.942232] (-) TimerEvent: {}
+[15.042563] (-) TimerEvent: {}
+[15.142873] (-) TimerEvent: {}
+[15.243196] (-) TimerEvent: {}
+[15.343595] (-) TimerEvent: {}
+[15.443930] (-) TimerEvent: {}
+[15.504671] (db_tsdf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/tsdf3d_16.hpp:6\x1b[m\x1b[K,\n'}
+[15.504875] (db_tsdf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/src/db_tsdf_node.cpp:32\x1b[m\x1b[K:\n'}
+[15.504959] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void DF3D::\x1b[01;32m\x1b[Kclear\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.505045] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:89:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memset\x1b[m\x1b[K(void*, int, size_t)\x1b[m\x1b[K\xe2\x80\x99 clearing an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[Kstruct TrilinearParams\x1b[m\x1b[K\xe2\x80\x99; use assignment or value-initialization instead [\x1b[01;35m\x1b[K-Wclass-memaccess\x1b[m\x1b[K]\n'}
+[15.505145] (db_tsdf) StderrLine: {'line': b'   89 |                 \x1b[01;35m\x1b[Kstd::memset(m_gridTrilinear, 0, m_gridSize*sizeof(TrilinearParams))\x1b[m\x1b[K;\n'}
+[15.505242] (db_tsdf) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.505315] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:12:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct TrilinearParams\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[15.505389] (db_tsdf) StderrLine: {'line': b'   12 | struct \x1b[01;36m\x1b[KTrilinearParams\x1b[m\x1b[K\n'}
+[15.505461] (db_tsdf) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.510086] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool DF3D::\x1b[01;32m\x1b[KisIntoGrid\x1b[m\x1b[K(const uint64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.510233] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:190:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K-Wtype-limits\x1b[m\x1b[K]\n'}
+[15.510321] (db_tsdf) StderrLine: {'line': b'  190 |                 return (\x1b[01;35m\x1b[Kindex >= 0\x1b[m\x1b[K && index < m_gridSize);\n'}
+[15.510398] (db_tsdf) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.544079] (-) TimerEvent: {}
+[15.644409] (-) TimerEvent: {}
+[15.744727] (-) TimerEvent: {}
+[15.845109] (-) TimerEvent: {}
+[15.945434] (-) TimerEvent: {}
+[16.045769] (-) TimerEvent: {}
+[16.146106] (-) TimerEvent: {}
+[16.246440] (-) TimerEvent: {}
+[16.346820] (-) TimerEvent: {}
+[16.447145] (-) TimerEvent: {}
+[16.451948] (db_tsdf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/tsdf3d_16.hpp:11\x1b[m\x1b[K:\n'}
+[16.452139] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/grid_16.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GRID16::\x1b[01;32m\x1b[KexportMesh\x1b[m\x1b[K(const std::string&, float, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.452224] (db_tsdf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/grid_16.hpp:499:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kis_surface\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[16.452295] (db_tsdf) StderrLine: {'line': b'  499 |                 const bool \x1b[01;35m\x1b[Kis_surface\x1b[m\x1b[K = (dist_rank <= 1);\n'}
+[16.452362] (db_tsdf) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.547316] (-) TimerEvent: {}
+[16.647638] (-) TimerEvent: {}
+[16.747965] (-) TimerEvent: {}
+[16.848296] (-) TimerEvent: {}
+[16.948611] (-) TimerEvent: {}
+[17.048941] (-) TimerEvent: {}
+[17.149314] (-) TimerEvent: {}
+[17.249636] (-) TimerEvent: {}
+[17.350004] (-) TimerEvent: {}
+[17.450277] (-) TimerEvent: {}
+[17.550643] (-) TimerEvent: {}
+[17.651464] (-) TimerEvent: {}
+[17.751776] (-) TimerEvent: {}
+[17.852128] (-) TimerEvent: {}
+[17.952449] (-) TimerEvent: {}
+[18.052768] (-) TimerEvent: {}
+[18.153099] (-) TimerEvent: {}
+[18.253431] (-) TimerEvent: {}
+[18.353781] (-) TimerEvent: {}
+[18.454138] (-) TimerEvent: {}
+[18.554453] (-) TimerEvent: {}
+[18.654773] (-) TimerEvent: {}
+[18.755111] (-) TimerEvent: {}
+[18.855442] (-) TimerEvent: {}
+[18.955802] (-) TimerEvent: {}
+[19.056118] (-) TimerEvent: {}
+[19.156431] (-) TimerEvent: {}
+[19.256765] (-) TimerEvent: {}
+[19.357114] (-) TimerEvent: {}
+[19.457495] (-) TimerEvent: {}
+[19.557833] (-) TimerEvent: {}
+[19.658161] (-) TimerEvent: {}
+[19.758481] (-) TimerEvent: {}
+[19.858819] (-) TimerEvent: {}
+[19.959145] (-) TimerEvent: {}
+[20.059480] (-) TimerEvent: {}
+[20.159823] (-) TimerEvent: {}
+[20.260200] (-) TimerEvent: {}
+[20.360511] (-) TimerEvent: {}
+[20.460869] (-) TimerEvent: {}
+[20.561193] (-) TimerEvent: {}
+[20.661586] (-) TimerEvent: {}
+[20.761990] (-) TimerEvent: {}
+[20.862358] (-) TimerEvent: {}
+[20.962702] (-) TimerEvent: {}
+[21.063128] (-) TimerEvent: {}
+[21.163511] (-) TimerEvent: {}
+[21.263893] (-) TimerEvent: {}
+[21.364338] (-) TimerEvent: {}
+[21.464750] (-) TimerEvent: {}
+[21.565156] (-) TimerEvent: {}
+[21.665562] (-) TimerEvent: {}
+[21.765998] (-) TimerEvent: {}
+[21.866368] (-) TimerEvent: {}
+[21.966734] (-) TimerEvent: {}
+[22.067089] (-) TimerEvent: {}
+[22.167426] (-) TimerEvent: {}
+[22.267747] (-) TimerEvent: {}
+[22.368079] (-) TimerEvent: {}
+[22.468439] (-) TimerEvent: {}
+[22.568796] (-) TimerEvent: {}
+[22.669139] (-) TimerEvent: {}
+[22.769451] (-) TimerEvent: {}
+[22.869847] (-) TimerEvent: {}
+[22.970177] (-) TimerEvent: {}
+[23.070537] (-) TimerEvent: {}
+[23.170861] (-) TimerEvent: {}
+[23.271196] (-) TimerEvent: {}
+[23.371586] (-) TimerEvent: {}
+[23.471972] (-) TimerEvent: {}
+[23.572406] (-) TimerEvent: {}
+[23.672785] (-) TimerEvent: {}
+[23.773154] (-) TimerEvent: {}
+[23.873486] (-) TimerEvent: {}
+[23.973814] (-) TimerEvent: {}
+[24.074128] (-) TimerEvent: {}
+[24.174412] (-) TimerEvent: {}
+[24.274761] (-) TimerEvent: {}
+[24.375167] (-) TimerEvent: {}
+[24.475502] (-) TimerEvent: {}
+[24.575836] (-) TimerEvent: {}
+[24.676149] (-) TimerEvent: {}
+[24.776515] (-) TimerEvent: {}
+[24.876835] (-) TimerEvent: {}
+[24.977165] (-) TimerEvent: {}
+[25.077484] (-) TimerEvent: {}
+[25.177794] (-) TimerEvent: {}
+[25.278117] (-) TimerEvent: {}
+[25.378509] (-) TimerEvent: {}
+[25.478825] (-) TimerEvent: {}
+[25.579172] (-) TimerEvent: {}
+[25.679496] (-) TimerEvent: {}
+[25.779812] (-) TimerEvent: {}
+[25.880172] (-) TimerEvent: {}
+[25.980503] (-) TimerEvent: {}
+[26.080816] (-) TimerEvent: {}
+[26.181128] (-) TimerEvent: {}
+[26.281408] (-) TimerEvent: {}
+[26.381758] (-) TimerEvent: {}
+[26.482051] (-) TimerEvent: {}
+[26.582387] (-) TimerEvent: {}
+[26.682749] (-) TimerEvent: {}
+[26.783144] (-) TimerEvent: {}
+[26.883527] (-) TimerEvent: {}
+[26.983870] (-) TimerEvent: {}
+[27.084169] (-) TimerEvent: {}
+[27.184531] (-) TimerEvent: {}
+[27.284930] (-) TimerEvent: {}
+[27.385300] (-) TimerEvent: {}
+[27.485648] (-) TimerEvent: {}
+[27.585964] (-) TimerEvent: {}
+[27.686373] (-) TimerEvent: {}
+[27.786711] (-) TimerEvent: {}
+[27.887058] (-) TimerEvent: {}
+[27.987380] (-) TimerEvent: {}
+[28.087686] (-) TimerEvent: {}
+[28.188076] (-) TimerEvent: {}
+[28.288386] (-) TimerEvent: {}
+[28.388755] (-) TimerEvent: {}
+[28.489045] (-) TimerEvent: {}
+[28.589340] (-) TimerEvent: {}
+[28.689598] (-) TimerEvent: {}
+[28.789921] (-) TimerEvent: {}
+[28.890268] (-) TimerEvent: {}
+[28.990626] (-) TimerEvent: {}
+[29.090935] (-) TimerEvent: {}
+[29.191282] (-) TimerEvent: {}
+[29.291603] (-) TimerEvent: {}
+[29.391939] (-) TimerEvent: {}
+[29.492287] (-) TimerEvent: {}
+[29.592607] (-) TimerEvent: {}
+[29.692916] (-) TimerEvent: {}
+[29.793268] (-) TimerEvent: {}
+[29.893573] (-) TimerEvent: {}
+[29.993927] (-) TimerEvent: {}
+[30.094235] (-) TimerEvent: {}
+[30.194508] (-) TimerEvent: {}
+[30.294796] (-) TimerEvent: {}
+[30.395119] (-) TimerEvent: {}
+[30.495392] (-) TimerEvent: {}
+[30.595719] (-) TimerEvent: {}
+[30.696039] (-) TimerEvent: {}
+[30.796356] (-) TimerEvent: {}
+[30.896693] (-) TimerEvent: {}
+[30.996994] (-) TimerEvent: {}
+[31.097306] (-) TimerEvent: {}
+[31.197658] (-) TimerEvent: {}
+[31.297981] (-) TimerEvent: {}
+[31.398362] (-) TimerEvent: {}
+[31.498669] (-) TimerEvent: {}
+[31.599044] (-) TimerEvent: {}
+[31.699462] (-) TimerEvent: {}
+[31.799776] (-) TimerEvent: {}
+[31.900126] (-) TimerEvent: {}
+[32.000460] (-) TimerEvent: {}
+[32.100781] (-) TimerEvent: {}
+[32.201121] (-) TimerEvent: {}
+[32.301428] (-) TimerEvent: {}
+[32.401756] (-) TimerEvent: {}
+[32.502147] (-) TimerEvent: {}
+[32.602470] (-) TimerEvent: {}
+[32.702764] (-) TimerEvent: {}
+[32.803126] (-) TimerEvent: {}
+[32.903467] (-) TimerEvent: {}
+[33.003786] (-) TimerEvent: {}
+[33.104149] (-) TimerEvent: {}
+[33.204491] (-) TimerEvent: {}
+[33.304793] (-) TimerEvent: {}
+[33.405174] (-) TimerEvent: {}
+[33.505513] (-) TimerEvent: {}
+[33.605851] (-) TimerEvent: {}
+[33.706210] (-) TimerEvent: {}
+[33.806550] (-) TimerEvent: {}
+[33.906861] (-) TimerEvent: {}
+[34.007176] (-) TimerEvent: {}
+[34.107459] (-) TimerEvent: {}
+[34.207782] (-) TimerEvent: {}
+[34.308189] (-) TimerEvent: {}
+[34.408507] (-) TimerEvent: {}
+[34.508804] (-) TimerEvent: {}
+[34.609118] (-) TimerEvent: {}
+[34.709417] (-) TimerEvent: {}
+[34.809761] (-) TimerEvent: {}
+[34.910134] (-) TimerEvent: {}
+[35.010470] (-) TimerEvent: {}
+[35.110799] (-) TimerEvent: {}
+[35.211145] (-) TimerEvent: {}
+[35.311496] (-) TimerEvent: {}
+[35.411817] (-) TimerEvent: {}
+[35.512150] (-) TimerEvent: {}
+[35.612475] (-) TimerEvent: {}
+[35.712865] (-) TimerEvent: {}
+[35.813233] (-) TimerEvent: {}
+[35.913580] (-) TimerEvent: {}
+[36.013893] (-) TimerEvent: {}
+[36.114214] (-) TimerEvent: {}
+[36.214491] (-) TimerEvent: {}
+[36.314849] (-) TimerEvent: {}
+[36.415147] (-) TimerEvent: {}
+[36.515479] (-) TimerEvent: {}
+[36.615811] (-) TimerEvent: {}
+[36.716159] (-) TimerEvent: {}
+[36.816557] (-) TimerEvent: {}
+[36.916952] (-) TimerEvent: {}
+[37.017282] (-) TimerEvent: {}
+[37.117596] (-) TimerEvent: {}
+[37.191700] (db_tsdf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable db_tsdf_node\x1b[0m\n'}
+[37.217734] (-) TimerEvent: {}
+[37.318043] (-) TimerEvent: {}
+[37.418368] (-) TimerEvent: {}
+[37.518732] (-) TimerEvent: {}
+[37.619111] (-) TimerEvent: {}
+[37.719541] (-) TimerEvent: {}
+[37.819872] (-) TimerEvent: {}
+[37.920200] (-) TimerEvent: {}
+[38.020552] (-) TimerEvent: {}
+[38.120904] (-) TimerEvent: {}
+[38.221297] (-) TimerEvent: {}
+[38.321636] (-) TimerEvent: {}
+[38.402982] (db_tsdf) StdoutLine: {'line': b'[100%] Built target db_tsdf_node\n'}
+[38.418083] (db_tsdf) CommandEnded: {'returncode': 0}
+[38.419276] (db_tsdf) JobProgress: {'identifier': 'db_tsdf', 'progress': 'install'}
+[38.420191] (db_tsdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/db_tsdf'], 'cwd': '/home/alex/ros2_ws/build/db_tsdf', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/tsdf_saver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/alex/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/db_tsdf', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/tsdf_saver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[38.421703] (-) TimerEvent: {}
+[38.431567] (db_tsdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.431842] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch\n'}
+[38.432042] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch/mapper_launch.py\n'}
+[38.432168] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config\n'}
+[38.432307] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz\n'}
+[38.432436] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/college.rviz\n'}
+[38.432561] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/mai.rviz\n'}
+[38.432660] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/mai.yaml\n'}
+[38.432778] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/college.yaml\n'}
+[38.432875] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/lib/db_tsdf/db_tsdf_node\n'}
+[38.434442] (db_tsdf) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alex/ros2_ws/install/db_tsdf/lib/db_tsdf/db_tsdf_node" to ""\n'}
+[38.434702] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/package_run_dependencies/db_tsdf\n'}
+[38.434983] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/parent_prefix_path/db_tsdf\n'}
+[38.435263] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.sh\n'}
+[38.435446] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.dsv\n'}
+[38.435663] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.sh\n'}
+[38.435837] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.dsv\n'}
+[38.436100] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.bash\n'}
+[38.436459] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.sh\n'}
+[38.436726] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.zsh\n'}
+[38.436970] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.dsv\n'}
+[38.437207] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.dsv\n'}
+[38.437534] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/packages/db_tsdf\n'}
+[38.437722] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig.cmake\n'}
+[38.437898] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig-version.cmake\n'}
+[38.438135] (db_tsdf) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.xml\n'}
+[38.440547] (db_tsdf) CommandEnded: {'returncode': 0}
+[38.454471] (db_tsdf) JobEnded: {'identifier': 'db_tsdf', 'rc': 0}
+[38.455194] (-) EventReactorShutdown: {}

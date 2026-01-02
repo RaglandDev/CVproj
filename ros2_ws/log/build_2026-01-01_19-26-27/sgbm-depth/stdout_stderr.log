@@ -1,0 +1,27 @@
+running egg_info
+creating ../../build/sgbm-depth/sgbm_depth.egg-info
+writing ../../build/sgbm-depth/sgbm_depth.egg-info/PKG-INFO
+writing dependency_links to ../../build/sgbm-depth/sgbm_depth.egg-info/dependency_links.txt
+writing entry points to ../../build/sgbm-depth/sgbm_depth.egg-info/entry_points.txt
+writing requirements to ../../build/sgbm-depth/sgbm_depth.egg-info/requires.txt
+writing top-level names to ../../build/sgbm-depth/sgbm_depth.egg-info/top_level.txt
+writing manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+reading manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alex/ros2_ws/build/sgbm-depth/build
+creating /home/alex/ros2_ws/build/sgbm-depth/build/lib
+creating /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+copying sgbm_depth/__init__.py -> /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+copying sgbm_depth/depth_mapper.py -> /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+running install
+running install_lib
+creating /home/alex/ros2_ws/install/sgbm-depth/lib/python3.12/site-packages/sgbm_depth
+copying /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth/__init__.py -> /home/alex/ros2_ws/install/sgbm-depth/lib/python3.12/site-packages/sgbm_depth
+copying /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth/depth_mapper.py -> /home/alex/ros2_ws/install/sgbm-depth/lib/python3.12/site-packages/sgbm_depth
+byte-compiling /home/alex/ros2_ws/install/sgbm-depth/lib/python3.12/site-packages/sgbm_depth/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/alex/ros2_ws/install/sgbm-depth/lib/python3.12/site-packages/sgbm_depth/depth_mapper.py to depth_mapper.cpython-312.pyc
+running install_data
+error: can't copy 'resource/sgbm_depth': doesn't exist or not a regular file

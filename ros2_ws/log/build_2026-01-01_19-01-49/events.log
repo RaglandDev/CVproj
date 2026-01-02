@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (tsdf_saver) JobQueued: {'identifier': 'tsdf_saver', 'dependencies': OrderedDict()}
+[0.001021] (tsdf_saver) JobStarted: {'identifier': 'tsdf_saver'}
+[0.011184] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'cmake'}
+[0.011624] (tsdf_saver) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/tsdf_saver', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/tsdf_saver'], 'cwd': '/home/alex/ros2_ws/build/tsdf_saver', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/output', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/tsdf_saver', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099765] (-) TimerEvent: {}
+[0.193944] (tsdf_saver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199847] (-) TimerEvent: {}
+[0.300121] (-) TimerEvent: {}
+[0.327342] (tsdf_saver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.347158] (tsdf_saver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400233] (-) TimerEvent: {}
+[0.439882] (tsdf_saver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.451165] (tsdf_saver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.451630] (tsdf_saver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.452296] (tsdf_saver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.462452] (tsdf_saver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500358] (-) TimerEvent: {}
+[0.564118] (tsdf_saver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.574726] (tsdf_saver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.575039] (tsdf_saver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.575515] (tsdf_saver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.578191] (tsdf_saver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600445] (-) TimerEvent: {}
+[0.700629] (-) TimerEvent: {}
+[0.718140] (tsdf_saver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.797365] (tsdf_saver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800742] (-) TimerEvent: {}
+[0.830720] (tsdf_saver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.871594] (tsdf_saver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.884804] (tsdf_saver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.900936] (tsdf_saver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901113] (-) TimerEvent: {}
+[0.920570] (tsdf_saver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000598] (tsdf_saver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.001220] (-) TimerEvent: {}
+[1.004110] (tsdf_saver) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.032724] (tsdf_saver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.101359] (-) TimerEvent: {}
+[1.105767] (tsdf_saver) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.159495] (tsdf_saver) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.178401] (tsdf_saver) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.201438] (-) TimerEvent: {}
+[1.301684] (-) TimerEvent: {}
+[1.336993] (tsdf_saver) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.351427] (tsdf_saver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.355509] (tsdf_saver) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/tsdf_saver\n'}
+[1.364617] (tsdf_saver) CommandEnded: {'returncode': 0}
+[1.365081] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'build'}
+[1.365969] (tsdf_saver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/tsdf_saver', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/tsdf_saver', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/output', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/tsdf_saver', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.401786] (-) TimerEvent: {}
+[1.421026] (tsdf_saver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exact_time_saver.dir/src/exact_time_saver.cpp.o\x1b[0m\n'}
+[1.501892] (-) TimerEvent: {}
+[1.602111] (-) TimerEvent: {}
+[1.702408] (-) TimerEvent: {}
+[1.802653] (-) TimerEvent: {}
+[1.902892] (-) TimerEvent: {}
+[2.003170] (-) TimerEvent: {}
+[2.103459] (-) TimerEvent: {}
+[2.203742] (-) TimerEvent: {}
+[2.304000] (-) TimerEvent: {}
+[2.404261] (-) TimerEvent: {}
+[2.504537] (-) TimerEvent: {}
+[2.604876] (-) TimerEvent: {}
+[2.705172] (-) TimerEvent: {}
+[2.805447] (-) TimerEvent: {}
+[2.905745] (-) TimerEvent: {}
+[3.006023] (-) TimerEvent: {}
+[3.106349] (-) TimerEvent: {}
+[3.206630] (-) TimerEvent: {}
+[3.306924] (-) TimerEvent: {}
+[3.407288] (-) TimerEvent: {}
+[3.507597] (-) TimerEvent: {}
+[3.607892] (-) TimerEvent: {}
+[3.708234] (-) TimerEvent: {}
+[3.808515] (-) TimerEvent: {}
+[3.908791] (-) TimerEvent: {}
+[4.009082] (-) TimerEvent: {}
+[4.109384] (-) TimerEvent: {}
+[4.209722] (-) TimerEvent: {}
+[4.310009] (-) TimerEvent: {}
+[4.410307] (-) TimerEvent: {}
+[4.510605] (-) TimerEvent: {}
+[4.610945] (-) TimerEvent: {}
+[4.711246] (-) TimerEvent: {}
+[4.811555] (-) TimerEvent: {}
+[4.911844] (-) TimerEvent: {}
+[5.012109] (-) TimerEvent: {}
+[5.112383] (-) TimerEvent: {}
+[5.212641] (-) TimerEvent: {}
+[5.312931] (-) TimerEvent: {}
+[5.413216] (-) TimerEvent: {}
+[5.513516] (-) TimerEvent: {}
+[5.613751] (-) TimerEvent: {}
+[5.714080] (-) TimerEvent: {}
+[5.814359] (-) TimerEvent: {}
+[5.914741] (-) TimerEvent: {}
+[6.015103] (-) TimerEvent: {}
+[6.115424] (-) TimerEvent: {}
+[6.215775] (-) TimerEvent: {}
+[6.316121] (-) TimerEvent: {}
+[6.416350] (-) TimerEvent: {}
+[6.516624] (-) TimerEvent: {}
+[6.616903] (-) TimerEvent: {}
+[6.717169] (-) TimerEvent: {}
+[6.817497] (-) TimerEvent: {}
+[6.917871] (-) TimerEvent: {}
+[7.018150] (-) TimerEvent: {}
+[7.118457] (-) TimerEvent: {}
+[7.218824] (-) TimerEvent: {}
+[7.319115] (-) TimerEvent: {}
+[7.419405] (-) TimerEvent: {}
+[7.519621] (-) TimerEvent: {}
+[7.619898] (-) TimerEvent: {}
+[7.720221] (-) TimerEvent: {}
+[7.820453] (-) TimerEvent: {}
+[7.920680] (-) TimerEvent: {}
+[8.020959] (-) TimerEvent: {}
+[8.121266] (-) TimerEvent: {}
+[8.221533] (-) TimerEvent: {}
+[8.321845] (-) TimerEvent: {}
+[8.422101] (-) TimerEvent: {}
+[8.522373] (-) TimerEvent: {}
+[8.622601] (-) TimerEvent: {}
+[8.722869] (-) TimerEvent: {}
+[8.823131] (-) TimerEvent: {}
+[8.923442] (-) TimerEvent: {}
+[9.023771] (-) TimerEvent: {}
+[9.124030] (-) TimerEvent: {}
+[9.224297] (-) TimerEvent: {}
+[9.324570] (-) TimerEvent: {}
+[9.424991] (-) TimerEvent: {}
+[9.525255] (-) TimerEvent: {}
+[9.625470] (-) TimerEvent: {}
+[9.725784] (-) TimerEvent: {}
+[9.826428] (-) TimerEvent: {}
+[9.926681] (-) TimerEvent: {}
+[10.026958] (-) TimerEvent: {}
+[10.127272] (-) TimerEvent: {}
+[10.227548] (-) TimerEvent: {}
+[10.327764] (-) TimerEvent: {}
+[10.428056] (-) TimerEvent: {}
+[10.528340] (-) TimerEvent: {}
+[10.628574] (-) TimerEvent: {}
+[10.728854] (-) TimerEvent: {}
+[10.829082] (-) TimerEvent: {}
+[10.929375] (-) TimerEvent: {}
+[11.029635] (-) TimerEvent: {}
+[11.129977] (-) TimerEvent: {}
+[11.230230] (-) TimerEvent: {}
+[11.330514] (-) TimerEvent: {}
+[11.430797] (-) TimerEvent: {}
+[11.531093] (-) TimerEvent: {}
+[11.631367] (-) TimerEvent: {}
+[11.731621] (-) TimerEvent: {}
+[11.831931] (-) TimerEvent: {}
+[11.932200] (-) TimerEvent: {}
+[12.032477] (-) TimerEvent: {}
+[12.132754] (-) TimerEvent: {}
+[12.233107] (-) TimerEvent: {}
+[12.333414] (-) TimerEvent: {}
+[12.433660] (-) TimerEvent: {}
+[12.533984] (-) TimerEvent: {}
+[12.634318] (-) TimerEvent: {}
+[12.734578] (-) TimerEvent: {}
+[12.834865] (-) TimerEvent: {}
+[12.935138] (-) TimerEvent: {}
+[13.035359] (-) TimerEvent: {}
+[13.135638] (-) TimerEvent: {}
+[13.235924] (-) TimerEvent: {}
+[13.336161] (-) TimerEvent: {}
+[13.436380] (-) TimerEvent: {}
+[13.536678] (-) TimerEvent: {}
+[13.636983] (-) TimerEvent: {}
+[13.723573] (tsdf_saver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libexact_time_saver.so\x1b[0m\n'}
+[13.737123] (-) TimerEvent: {}
+[13.837381] (-) TimerEvent: {}
+[13.937737] (-) TimerEvent: {}
+[13.980747] (tsdf_saver) StdoutLine: {'line': b'[100%] Built target exact_time_saver\n'}
+[13.994620] (tsdf_saver) CommandEnded: {'returncode': 0}
+[13.995276] (tsdf_saver) JobProgress: {'identifier': 'tsdf_saver', 'progress': 'install'}
+[14.006332] (tsdf_saver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/tsdf_saver'], 'cwd': '/home/alex/ros2_ws/build/tsdf_saver', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'alex-ThinkPad-T490', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alex', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/cyclonedds.xml', 'OLDPWD': '/home/alex/output', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VENV_PATH': '/opt/venv', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alex/ros2_ws/build/tsdf_saver', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.015598] (tsdf_saver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[14.016190] (tsdf_saver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.016607] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/lib/libexact_time_saver.so\n'}
+[14.027712] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/include//tsdf_saver/exact_time_saver.hpp\n'}
+[14.037854] (-) TimerEvent: {}
+[14.039396] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/launch/saver.launch.py\n'}
+[14.050864] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/package_run_dependencies/tsdf_saver\n'}
+[14.060418] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/parent_prefix_path/tsdf_saver\n'}
+[14.070194] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.sh\n'}
+[14.079875] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.dsv\n'}
+[14.089667] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.sh\n'}
+[14.099284] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.dsv\n'}
+[14.109112] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.bash\n'}
+[14.118979] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.sh\n'}
+[14.128833] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.zsh\n'}
+[14.137986] (-) TimerEvent: {}
+[14.138459] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.dsv\n'}
+[14.149145] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.dsv\n'}
+[14.159248] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/packages/tsdf_saver\n'}
+[14.169321] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/rclcpp_components/tsdf_saver\n'}
+[14.179548] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig.cmake\n'}
+[14.189711] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig-version.cmake\n'}
+[14.199528] (tsdf_saver) StdoutLine: {'line': b'-- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.xml\n'}
+[14.211127] (tsdf_saver) CommandEnded: {'returncode': 0}
+[14.238161] (-) TimerEvent: {}
+[14.248924] (tsdf_saver) JobEnded: {'identifier': 'tsdf_saver', 'rc': 0}
+[14.249749] (-) EventReactorShutdown: {}

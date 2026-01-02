@@ -1,0 +1,26 @@
+[0.247s] Invoking command in '/home/alex/ros2_ws/build/tsdf_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/sgbm_depth:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/tsdf_saver -- -j8 -l8
+[0.312s] [100%] Built target exact_time_saver
+[0.327s] Invoked command in '/home/alex/ros2_ws/build/tsdf_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/sgbm_depth:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/tsdf_saver -- -j8 -l8
+[0.329s] Invoking command in '/home/alex/ros2_ws/build/tsdf_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/sgbm_depth:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/tsdf_saver
+[0.337s] -- Install configuration: "Release"
+[0.338s] -- Execute custom install script
+[0.339s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/lib/libexact_time_saver.so
+[0.339s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/include//tsdf_saver/exact_time_saver.hpp
+[0.340s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/launch/saver.launch.py
+[0.340s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/package_run_dependencies/tsdf_saver
+[0.340s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/parent_prefix_path/tsdf_saver
+[0.340s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.sh
+[0.341s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.sh
+[0.341s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/environment/path.dsv
+[0.342s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.sh
+[0.342s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.zsh
+[0.342s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/local_setup.dsv
+[0.342s] -- Symlinking: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.dsv
+[0.351s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/packages/tsdf_saver
+[0.352s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/ament_index/resource_index/rclcpp_components/tsdf_saver
+[0.352s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig.cmake
+[0.352s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/cmake/tsdf_saverConfig-version.cmake
+[0.352s] -- Up-to-date symlink: /home/alex/ros2_ws/install/tsdf_saver/share/tsdf_saver/package.xml
+[0.354s] Invoked command in '/home/alex/ros2_ws/build/tsdf_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/sgbm_depth:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/tsdf_saver

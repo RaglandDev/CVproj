@@ -1,0 +1,184 @@
+[0.017s] Invoking command in '/home/alex/ros2_ws/build/db_tsdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alex/ros2_ws/src/DB-TSDF -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/db_tsdf
+[0.260s] -- The C compiler identification is GNU 13.3.0
+[0.261s] -- The CXX compiler identification is GNU 13.3.0
+[0.261s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.688s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.729s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.743s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.877s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.913s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.998s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.025s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[1.049s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.200s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.220s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.221s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.221s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.225s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.254s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.288s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[1.374s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.374s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.374s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.374s]   cmake_policy command to set the policy and suppress this warning.
+[1.374s] 
+[1.374s]   CMake variable FLANN_ROOT is set to:
+[1.374s] 
+[1.374s]     /usr
+[1.374s] 
+[1.374s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.375s]   .cmake module might still use it.
+[1.375s] Call Stack (most recent call first):
+[1.375s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.375s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.375s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.375s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.375s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.375s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.375s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[1.376s]   CMakeLists.txt:24 (find_package)
+[1.376s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.376s] [0m
+[1.376s] -- Found flann version 1.9.2
+[1.710s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.710s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.008s] -- Checking for module 'libusb-1.0'
+[3.022s] --   Found libusb-1.0, version 1.0.27
+[3.054s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.056s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.108s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.112s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.123s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.137s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.503s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.510s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.869s] -- Found Qhull version 8.0.2
+[4.240s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.599s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.600s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.601s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.602s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.603s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.604s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.605s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.605s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.606s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.608s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.609s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.610s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.612s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.613s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.614s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.616s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.617s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.618s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.619s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.620s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.621s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.622s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.622s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.623s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.625s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.676s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread chrono 
+[4.782s] -- Found Threads: TRUE  
+[5.198s] -- Found AMD headers in: /usr/include/suitesparse
+[5.199s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[5.199s] -- Found CAMD headers in: /usr/include/suitesparse
+[5.200s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[5.200s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[5.201s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[5.202s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[5.203s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[5.203s] -- Found COLAMD headers in: /usr/include/suitesparse
+[5.204s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[5.204s] -- Found SPQR headers in: /usr/include/suitesparse
+[5.205s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[5.206s] -- Found Config headers in: /usr/include/suitesparse
+[5.206s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[5.207s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[5.207s] -- Looking for shm_open in rt
+[5.296s] -- Looking for shm_open in rt - found
+[5.296s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[5.303s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[5.304s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[5.305s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[5.319s] -- Found required Ceres dependency: glog
+[5.320s] -- Found required Ceres dependency: gflags
+[5.320s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[5.418s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[5.419s] -- Found OpenMP: TRUE (found version "4.5")  
+[5.423s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[5.479s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[5.480s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[5.482s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[5.483s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[5.487s] -- Found utf8cpp: /usr/include/utf8cpp  
+[5.602s] -- Configuring done (5.6s)
+[5.719s] -- Generating done (0.1s)
+[5.727s] -- Build files have been written to: /home/alex/ros2_ws/build/db_tsdf
+[5.752s] Invoked command in '/home/alex/ros2_ws/build/db_tsdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alex/ros2_ws/src/DB-TSDF -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/db_tsdf
+[5.753s] Invoking command in '/home/alex/ros2_ws/build/db_tsdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/db_tsdf -- -j8 -l8
+[5.818s] [ 50%] [32mBuilding CXX object CMakeFiles/db_tsdf_node.dir/src/db_tsdf_node.cpp.o[0m
+[15.504s] In file included from [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/tsdf3d_16.hpp:6[m[K,
+[15.504s]                  from [01m[K/home/alex/ros2_ws/src/DB-TSDF/src/db_tsdf_node.cpp:32[m[K:
+[15.504s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:[m[K In member function ‘[01m[Kvirtual void DF3D::[01;32m[Kclear[m[K()[m[K’:
+[15.504s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:89:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memset[m[K(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kstruct TrilinearParams[m[K’; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[15.504s]    89 |                 [01;35m[Kstd::memset(m_gridTrilinear, 0, m_gridSize*sizeof(TrilinearParams))[m[K;
+[15.504s]       |                 [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.504s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:12:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct TrilinearParams[m[K’ declared here
+[15.504s]    12 | struct [01;36m[KTrilinearParams[m[K
+[15.504s]       |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[15.509s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:[m[K In member function ‘[01m[Kvirtual bool DF3D::[01;32m[KisIntoGrid[m[K(const uint64_t&)[m[K’:
+[15.509s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/df3d.hpp:190:31:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K-Wtype-limits[m[K]
+[15.509s]   190 |                 return ([01;35m[Kindex >= 0[m[K && index < m_gridSize);
+[15.509s]       |                         [01;35m[K~~~~~~^~~~[m[K
+[16.451s] In file included from [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/tsdf3d_16.hpp:11[m[K:
+[16.451s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/grid_16.hpp:[m[K In member function ‘[01m[Kvoid GRID16::[01;32m[KexportMesh[m[K(const std::string&, float, int)[m[K’:
+[16.451s] [01m[K/home/alex/ros2_ws/src/DB-TSDF/include/db_tsdf/grid_16.hpp:499:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_surface[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.451s]   499 |                 const bool [01;35m[Kis_surface[m[K = (dist_rank <= 1);
+[16.451s]       |                            [01;35m[K^~~~~~~~~~[m[K
+[37.191s] [100%] [32m[1mLinking CXX executable db_tsdf_node[0m
+[38.402s] [100%] Built target db_tsdf_node
+[38.417s] Invoked command in '/home/alex/ros2_ws/build/db_tsdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alex/ros2_ws/build/db_tsdf -- -j8 -l8
+[38.419s] Invoking command in '/home/alex/ros2_ws/build/db_tsdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/db_tsdf
+[38.431s] -- Install configuration: ""
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/launch/mapper_launch.py
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/college.rviz
+[38.431s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/rviz/mai.rviz
+[38.432s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/mai.yaml
+[38.432s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/config/college.yaml
+[38.432s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/lib/db_tsdf/db_tsdf_node
+[38.433s] -- Set non-toolchain portion of runtime path of "/home/alex/ros2_ws/install/db_tsdf/lib/db_tsdf/db_tsdf_node" to ""
+[38.434s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/package_run_dependencies/db_tsdf
+[38.434s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/parent_prefix_path/db_tsdf
+[38.434s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.sh
+[38.434s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/ament_prefix_path.dsv
+[38.435s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.sh
+[38.435s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/environment/path.dsv
+[38.435s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.bash
+[38.435s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.sh
+[38.436s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.zsh
+[38.436s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/local_setup.dsv
+[38.436s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.dsv
+[38.436s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/ament_index/resource_index/packages/db_tsdf
+[38.437s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig.cmake
+[38.437s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/cmake/db_tsdfConfig-version.cmake
+[38.437s] -- Installing: /home/alex/ros2_ws/install/db_tsdf/share/db_tsdf/package.xml
+[38.440s] Invoked command in '/home/alex/ros2_ws/build/db_tsdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alex/ros2_ws/build/db_tsdf

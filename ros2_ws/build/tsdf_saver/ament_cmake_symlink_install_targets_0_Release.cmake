@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alex/ros2_ws/build/tsdf_saver/libexact_time_saver.so" "TARGETS" "exact_time_saver" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/tsdf_saver")

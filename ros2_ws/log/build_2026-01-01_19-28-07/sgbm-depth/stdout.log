@@ -1,0 +1,21 @@
+running egg_info
+creating ../../build/sgbm-depth/sgbm_depth.egg-info
+writing ../../build/sgbm-depth/sgbm_depth.egg-info/PKG-INFO
+writing dependency_links to ../../build/sgbm-depth/sgbm_depth.egg-info/dependency_links.txt
+writing entry points to ../../build/sgbm-depth/sgbm_depth.egg-info/entry_points.txt
+writing requirements to ../../build/sgbm-depth/sgbm_depth.egg-info/requires.txt
+writing top-level names to ../../build/sgbm-depth/sgbm_depth.egg-info/top_level.txt
+writing manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+reading manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sgbm-depth/sgbm_depth.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alex/ros2_ws/build/sgbm-depth/build
+creating /home/alex/ros2_ws/build/sgbm-depth/build/lib
+creating /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+copying sgbm_depth/__init__.py -> /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+copying sgbm_depth/depth_mapper.py -> /home/alex/ros2_ws/build/sgbm-depth/build/lib/sgbm_depth
+running install
+running install_lib
+running install_data
