@@ -1,0 +1,28 @@
+# syntax=docker/dockerfile:1.19.0
+ARG BASE_FROM
+FROM ${BASE_FROM} AS python-packages
+
+# user args
+ARG USERNAME=appuser
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+# Install pip + venv
+RUN --mount=type=cache,target=/var/cache/apt \
+    apt-get update && apt-get install -y --no-install-recommends \
+        python3-pip \
+        python3-venv
+
+RUN --mount=type=cache,target=/root/.cache/pip \
+    python3 -m venv /opt/venv && \
+    /opt/venv/bin/pip install --no-warn-script-location --no-build-isolation \
+        open3d \
+        numpy \
+        scipy \
+        huggingface_hub
+
+# Set VENV PATH
+ENV VENV_PATH=/opt/venv
+
+COPY docker/entrypoint/entrypoint.sh /usr/local/bin/scripts/entrypoint.sh
+RUN chmod +x /usr/local/bin/scripts/entrypoint.sh
