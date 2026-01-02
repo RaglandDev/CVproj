@@ -1,4 +1,8 @@
 # Computer Vision Project Submission
+
+# Drive link to mesh file and metrics
+https://drive.google.com/drive/folders/1y03a2AN9pPF2ugRUZWJIWt4evkHZxj3T?usp=sharing
+
 ## Getting Started
 Clone the repo
 
