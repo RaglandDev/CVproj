@@ -1,5 +1,0 @@
-===== Volumetric SDF Metrics =====
-Mean Abs Error : 1.9433 m
-RMSE           : 2.3590 m
-Max Error      : 17.6703 m
-=================================
