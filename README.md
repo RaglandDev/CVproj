@@ -1,13 +1,4 @@
 # Computer Vision Project Submission
-
-<p align="center">
-  <a href="https://huggingface.co/datasets/OmniInstrument/CV_project">
-    <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface&style=for-the-badge">
-  </a>
-</p>
-
-
-<div align="justify">
 ## Getting Started
 Clone the repo
 
